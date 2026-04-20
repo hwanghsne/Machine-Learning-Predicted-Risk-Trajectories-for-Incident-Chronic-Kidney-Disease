@@ -1,0 +1,12 @@
+# Environment variables (contains sensitive paths)
+.env
+
+# Trained model artifacts
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc

@@ -11,3 +11,16 @@ Consider using LLMs for understanding.
 2. Data loading and hyperparameter configuration
 3. Function definitions
 4. Model training and evaluation (main execution)
+
+## Setup
+
+Install dependencies:
+```bash
+pip install numpy scikit-learn scikit-survival xgbse matplotlib scipy cloudpickle pyspark python-dotenv
+```
+
+Configure environment variables:
+```bash
+cp .env.example .env
+# Then edit .env and set LOAD_DATA_PATH to your actual Spark Delta table path
+```
